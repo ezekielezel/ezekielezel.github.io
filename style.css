@@ -1,66 +1,78 @@
-/* style.css */
-
-/* Reset some default browser styles */
+/* Reset some default styles for better cross-browser consistency */
 body, h1, h2, p, ul, li {
     margin: 0;
     padding: 0;
   }
   
-  /* Apply a basic font and background color to the body */
   body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
     background-color: #f4f4f4;
+    color: #333;
   }
   
-  /* Style the header */
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
   header {
     background-color: #333;
     color: #fff;
-    padding: 10px;
+    padding: 1em 0;
     text-align: center;
   }
   
-  /* Style the main content area */
-  main {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #fff;
-  }
-  
-  /* Style a basic navigation menu */
   nav {
     margin-top: 20px;
   }
   
   nav ul {
     list-style: none;
+    text-align: center;
   }
   
   nav li {
     display: inline-block;
-    margin-right: 10px;
+    margin-right: 20px;
   }
   
-  nav a {
+  a {
     text-decoration: none;
     color: #333;
-    font-weight: bold;
   }
   
-  /* Style the footer */
+  a:hover {
+    color: #666;
+  }
+  
+  main {
+    padding: 20px 0;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
   footer {
-    margin-top: 20px;
     background-color: #333;
     color: #fff;
+    padding: 1em 0;
     text-align: center;
-    padding: 10px;
   }
   
-  /* Apply some responsive design */
+  /* Responsive Styles */
+  
   @media (max-width: 600px) {
-    main {
-      padding: 10px;
+    nav li {
+      display: block;
+      margin-bottom: 10px;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    body {
+      font-size: 14px;
     }
   }
   
