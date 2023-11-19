@@ -39,11 +39,11 @@ body, h1, h2, p, ul, li {
   
   a {
     text-decoration: none;
-    color: #333;
+    color: #d84545;
   }
   
   a:hover {
-    color: #666;
+    color: #ff0084;
   }
   
   main {
@@ -56,7 +56,7 @@ body, h1, h2, p, ul, li {
   
   footer {
     background-color: #333;
-    color: #fff;
+    color: #d4d1d1;
     padding: 1em 0;
     text-align: center;
   }
